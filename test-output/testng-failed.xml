@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.BookAPIWithPojoTest">
+      <class name="com.qa.tests.BookAPIWithJsonFile">
         <methods>
-          <include name="getBook"/>
-          <include name="setUpData"/>
+          <include name="addBook"/>
         </methods>
-      </class> <!-- com.qa.tests.BookAPIWithPojoTest -->
+      </class> <!-- com.qa.tests.BookAPIWithJsonFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
